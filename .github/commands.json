@@ -245,7 +245,7 @@
 		],
 		"action": "close",
 		"addLabel": "*caused-by-extension",
-		"comment": "It looks like this is caused by the TypeScript language service. Please file it with the repository [here](https://github.com/microsoft/TypeScript/). Make sure to check their [contributing guidelines](https://github.com/microsoft/TypeScript/blob/master/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
+		"comment": "It looks like this is caused by the TypeScript language service. Please file it with the repository [here](https://github.com/microsoft/TypeScript/). Make sure to check their [contributing guidelines](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
 	},
 	{
 		"type": "comment",
@@ -258,7 +258,7 @@
 		],
 		"action": "close",
 		"addLabel": "*caused-by-extension",
-		"comment": "It looks like this is caused by the TypeScript/JavaScript language service. Please file it with the repository [here](https://github.com/microsoft/TypeScript/). Make sure to check their [contributing guidelines](https://github.com/microsoft/TypeScript/blob/master/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
+		"comment": "It looks like this is caused by the TypeScript/JavaScript language service. Please file it with the repository [here](https://github.com/microsoft/TypeScript/). Make sure to check their [contributing guidelines](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
 	},
 	{
 		"type": "comment",
@@ -310,7 +310,7 @@
 		],
 		"action": "close",
 		"addLabel": "*caused-by-extension",
-		"comment": "It looks like this is caused by the LiveShare extension. Please file it with the repository [here](https://github.com/MicrosoftDocs/live-share). Make sure to check their [contributing guidelines](https://github.com/MicrosoftDocs/live-share/blob/master/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
+		"comment": "It looks like this is caused by the LiveShare extension. Please file it with the repository [here](https://github.com/MicrosoftDocs/live-share). Make sure to check their [contributing guidelines](https://github.com/MicrosoftDocs/live-share/blob/main/CONTRIBUTING.md) and provide relevant information such as the extension version you're using. See also our [issue reporting](https://aka.ms/vscodeissuereporting) guidelines for more information.\n\nHappy Coding!"
 	},
 	{
 		"type": "comment",
