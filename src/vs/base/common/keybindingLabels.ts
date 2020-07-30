@@ -111,7 +111,7 @@ export const AriaLabelProvider = new ModifierLabelProvider(
 
 /**
  * A label provider that prints modifiers in a suitable format for Electron Accelerators.
- * See https://github.com/electron/electron/blob/master/docs/api/accelerator.md
+ * See https://github.com/electron/electron/blob/main/docs/api/accelerator.md
  */
 export const ElectronAcceleratorLabelProvider = new ModifierLabelProvider(
 	{
