@@ -41,7 +41,7 @@ interface Asset {
 async function sync(commit: string, quality: string): Promise<void> {
 	log(`Synchronizing Mooncake assets for ${quality}, ${commit}...`);
 
-	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MASTERKEY'] });
+	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MAINKEY'] });
 	const container = client.database('builds').container(quality);
 
 	const query = `SELECT TOP 1 * FROM c WHERE c.id = "${commit}"`;
