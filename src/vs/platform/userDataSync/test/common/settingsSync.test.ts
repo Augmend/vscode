@@ -120,7 +120,7 @@ suite('SettingsSync - Auto', () => {
 		}
 	},
 
-	"gitBranch.base": "remote-repo/master",
+	"gitBranch.base": "remote-repo/main",
 
 	// Experimental
 	"workbench.view.experimental.allowMovingToNewContainer": true,
@@ -394,7 +394,7 @@ suite('SettingsSync - Auto', () => {
 		}
 	}
 
-	"gitBranch.base": "remote-repo/master",
+	"gitBranch.base": "remote-repo/main",
 
 	// Experimental
 	"workbench.view.experimental.allowMovingToNewContainer": true,
