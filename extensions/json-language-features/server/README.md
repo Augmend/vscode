@@ -192,7 +192,7 @@ To connect to the server from NodeJS, see Remy Suen's great write-up on [how to 
 
 ## Participate
 
-The source code of the JSON language server can be found in the [VSCode repository](https://github.com/Microsoft/vscode) at [extensions/json-language-features/server](https://github.com/Microsoft/vscode/tree/master/extensions/json-language-features/server).
+The source code of the JSON language server can be found in the [VSCode repository](https://github.com/Microsoft/vscode) at [extensions/json-language-features/server](https://github.com/Microsoft/vscode/tree/main/extensions/json-language-features/server).
 
 File issues and pull requests in the [VSCode GitHub Issues](https://github.com/Microsoft/vscode/issues). See the document [How to Contribute](https://github.com/Microsoft/vscode/wiki/How-to-Contribute) on how to build and run from source.
 
@@ -211,4 +211,4 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the [MIT](https://github.com/microsoft/vscode/blob/master/LICENSE.txt) License.
+Licensed under the [MIT](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) License.
