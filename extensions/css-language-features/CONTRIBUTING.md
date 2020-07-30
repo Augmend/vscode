@@ -7,7 +7,7 @@
 	- Dependencies for `/extension/css-language-features/server/`
 	- devDependencies such as `gulp`
 - Open `/extensions/css-language-features/` as the workspace in VS Code
-- Run the [`Launch Extension`](https://github.com/Microsoft/vscode/blob/master/extensions/css-language-features/.vscode/launch.json) debug target in the Debug View. This will:
+- Run the [`Launch Extension`](https://github.com/Microsoft/vscode/blob/main/extensions/css-language-features/.vscode/launch.json) debug target in the Debug View. This will:
 	- Launch the `preLaunchTask` task to compile the extension
 	- Launch a new VS Code instance with the `css-language-features` extension loaded
 	- You should see a notification saying the development version of `css-language-features` overwrites the bundled version of `css-language-features`
