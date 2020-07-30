@@ -119,7 +119,7 @@ async function main(): Promise<void> {
 
 	console.log('Asset:', JSON.stringify(asset, null, '  '));
 
-	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MASTERKEY'] });
+	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MAINKEY'] });
 	const scripts = client.database('builds').container(quality).scripts;
 	await scripts.storedProcedure('createAsset').execute('', [commit, asset, true]);
 }
