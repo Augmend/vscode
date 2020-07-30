@@ -46,7 +46,7 @@ async function main(): Promise<void> {
 		updates: {}
 	};
 
-	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MASTERKEY'] });
+	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MAINKEY'] });
 	const scripts = client.database('builds').container(quality).scripts;
 	await scripts.storedProcedure('createBuild').execute('', [{ ...build, _partitionKey: '' }]);
 }
