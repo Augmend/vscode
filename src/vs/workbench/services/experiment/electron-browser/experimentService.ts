@@ -94,7 +94,7 @@ class ExperimentServiceFilterProvider implements IExperimentationFilterProvider 
 /*
 Based upon the official VSCode currently existing filters in the
 ExP backend for the VSCode cluster.
-https://experimentation.visualstudio.com/Analysis%20and%20Experimentation/_git/AnE.ExP.TAS.TachyonHost.Configuration?path=%2FConfigurations%2Fvscode%2Fvscode.json&version=GBmaster
+https://experimentation.visualstudio.com/Analysis%20and%20Experimentation/_git/AnE.ExP.TAS.TachyonHost.Configuration?path=%2FConfigurations%2Fvscode%2Fvscode.json&version=GBmain
 "X-MSEdge-Market": "detection.market",
 "X-FD-Corpnet": "detection.corpnet",
 "X-VSCode–AppVersion": "appversion",
