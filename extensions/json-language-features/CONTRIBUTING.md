@@ -6,7 +6,7 @@
 	- Dependencies for `/extension/json-language-features/server/`
 	- devDependencies such as `gulp`
 - Open `/extensions/json-language-features/` as the workspace in VS Code
-- Run the [`Launch Extension`](https://github.com/Microsoft/vscode/blob/master/extensions/json-language-features/.vscode/launch.json) debug target in the Debug View. This will:
+- Run the [`Launch Extension`](https://github.com/Microsoft/vscode/blob/main/extensions/json-language-features/.vscode/launch.json) debug target in the Debug View. This will:
 	- Launch the `preLaunchTask` task to compile the extension
 	- Launch a new VS Code instance with the `json-language-features` extension loaded
 	- You should see a notification saying the development version of `json-language-features` overwrites the bundled version of `json-language-features`
