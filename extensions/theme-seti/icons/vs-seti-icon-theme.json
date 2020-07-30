@@ -1,9 +1,9 @@
 {
 	"information_for_contributors": [
 		"This file has been generated from data in https://github.com/jesseweed/seti-ui",
-		"- icon definitions: https://github.com/jesseweed/seti-ui/blob/master/styles/_fonts/seti.less",
-		"- icon colors: https://github.com/jesseweed/seti-ui/blob/master/styles/ui-variables.less",
-		"- file associations: https://github.com/jesseweed/seti-ui/blob/master/styles/components/icons/mapping.less",
+		"- icon definitions: https://github.com/jesseweed/seti-ui/blob/main/styles/_fonts/seti.less",
+		"- icon colors: https://github.com/jesseweed/seti-ui/blob/main/styles/ui-variables.less",
+		"- file associations: https://github.com/jesseweed/seti-ui/blob/main/styles/components/icons/mapping.less",
 		"If you want to provide a fix or improvement, please create a pull request against the jesseweed/seti-ui repository.",
 		"Once accepted there, we are happy to receive an update request."
 	],
@@ -1380,7 +1380,7 @@
 		"aspx": "_html",
 		"ascx": "_html_1",
 		"asax": "_html_2",
-		"master": "_html_2",
+		"main": "_html_2",
 		"hh": "_cpp_1",
 		"hpp": "_cpp_1",
 		"hxx": "_cpp_1",
@@ -1708,7 +1708,7 @@
 			"aspx": "_html_light",
 			"ascx": "_html_1_light",
 			"asax": "_html_2_light",
-			"master": "_html_2_light",
+			"main": "_html_2_light",
 			"hh": "_cpp_1_light",
 			"hpp": "_cpp_1_light",
 			"hxx": "_cpp_1_light",
