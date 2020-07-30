@@ -18,5 +18,5 @@ steps:
 
     (cd build ; yarn)
 
-    AZURE_DOCUMENTDB_MASTERKEY="$(builds-docdb-key-readwrite)" \
+    AZURE_DOCUMENTDB_MAINKEY="$(builds-docdb-key-readwrite)" \
     node build/azure-pipelines/common/releaseBuild.js
