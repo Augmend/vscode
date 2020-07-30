@@ -82,7 +82,7 @@ function getCommitSha(repoId, repoPath) {
 	});
 }
 
-exports.update = function (repoId, repoPath, dest, modifyGrammar, version = 'master', packageJsonPathOverride = '') {
+exports.update = function (repoId, repoPath, dest, modifyGrammar, version = 'main', packageJsonPathOverride = '') {
 	var contentPath = 'https://raw.githubusercontent.com/' + repoId + `/${version}/` + repoPath;
 	console.log('Reading from ' + contentPath);
 	return download(contentPath).then(function (content) {
@@ -103,7 +103,7 @@ exports.update = function (repoId, repoPath, dest, modifyGrammar, version = 'mas
 		return getCommitSha(repoId, repoPath).then(function (info) {
 			let result = {
 				information_for_contributors: [
-					'This file has been converted from https://github.com/' + repoId + '/blob/master/' + repoPath,
+					'This file has been converted from https://github.com/' + repoId + '/blob/main/' + repoPath,
 					'If you want to provide a fix or improvement, please create a pull request against the original repository.',
 					'Once accepted there, we are happy to receive an update request.'
 				]
