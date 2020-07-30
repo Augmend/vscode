@@ -572,7 +572,7 @@ export abstract class ResolvedKeybinding {
 	public abstract getAriaLabel(): string | null;
 	/**
 	 * This prints the binding in a format suitable for electron's accelerators.
-	 * See https://github.com/electron/electron/blob/master/docs/api/accelerator.md
+	 * See https://github.com/electron/electron/blob/main/docs/api/accelerator.md
 	 */
 	public abstract getElectronAccelerator(): string | null;
 	/**
