@@ -46,10 +46,10 @@ let FROM_DISK = true; // set to true to take content from a repo checked out nex
 
 let font, fontMappingsFile, fileAssociationFile, colorsFile;
 if (!FROM_DISK) {
-	font = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/_fonts/seti/seti.woff';
-	fontMappingsFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/_fonts/seti.less';
-	fileAssociationFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/components/icons/mapping.less';
-	colorsFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/master/styles/ui-variables.less';
+	font = 'https://raw.githubusercontent.com/jesseweed/seti-ui/main/styles/_fonts/seti/seti.woff';
+	fontMappingsFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/main/styles/_fonts/seti.less';
+	fileAssociationFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/main/styles/components/icons/mapping.less';
+	colorsFile = 'https://raw.githubusercontent.com/jesseweed/seti-ui/main/styles/ui-variables.less';
 } else {
 	font = '../../../seti-ui/styles/_fonts/seti/seti.woff';
 	fontMappingsFile = '../../../seti-ui/styles/_fonts/seti.less';
@@ -58,7 +58,7 @@ if (!FROM_DISK) {
 }
 
 function getCommitSha(repoId) {
-	let commitInfo = 'https://api.github.com/repos/' + repoId + '/commits/master';
+	let commitInfo = 'https://api.github.com/repos/' + repoId + '/commits/main';
 	return download(commitInfo).then(function (content) {
 		try {
 			let lastCommit = JSON.parse(content);
@@ -261,9 +261,9 @@ exports.update = function () {
 		let res = {
 			information_for_contributors: [
 				'This file has been generated from data in https://github.com/jesseweed/seti-ui',
-				'- icon definitions: https://github.com/jesseweed/seti-ui/blob/master/styles/_fonts/seti.less',
-				'- icon colors: https://github.com/jesseweed/seti-ui/blob/master/styles/ui-variables.less',
-				'- file associations: https://github.com/jesseweed/seti-ui/blob/master/styles/components/icons/mapping.less',
+				'- icon definitions: https://github.com/jesseweed/seti-ui/blob/main/styles/_fonts/seti.less',
+				'- icon colors: https://github.com/jesseweed/seti-ui/blob/main/styles/ui-variables.less',
+				'- file associations: https://github.com/jesseweed/seti-ui/blob/main/styles/components/icons/mapping.less',
 				'If you want to provide a fix or improvement, please create a pull request against the jesseweed/seti-ui repository.',
 				'Once accepted there, we are happy to receive an update request.',
 			],
