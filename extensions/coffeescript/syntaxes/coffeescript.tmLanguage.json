@@ -1,6 +1,6 @@
 {
 	"information_for_contributors": [
-		"This file has been converted from https://github.com/atom/language-coffee-script/blob/master/grammars/coffeescript.cson",
+		"This file has been converted from https://github.com/atom/language-coffee-script/blob/main/grammars/coffeescript.cson",
 		"If you want to provide a fix or improvement, please create a pull request against the original repository.",
 		"Once accepted there, we are happy to receive an update request."
 	],
