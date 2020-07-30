@@ -7,7 +7,7 @@
 //
 [
 	{
-		// Reason: The license at https://github.com/aadsm/jschardet/blob/master/LICENSE
+		// Reason: The license at https://github.com/aadsm/jschardet/blob/main/LICENSE
 		// does not include a clear Copyright statement and does not credit authors.
 		"name": "jschardet",
 		"prependLicenseText": [
@@ -19,7 +19,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt
+		// Reason: The license at https://github.com/Microsoft/TypeScript/blob/main/LICENSE.txt
 		// does not include a clear Copyright statement.
 		"name": "typescript",
 		"prependLicenseText": [
@@ -47,7 +47,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://git.coolaj86.com/coolaj86/atob.js/src/branch/master/LICENSE
+		// Reason: The license at https://git.coolaj86.com/coolaj86/atob.js/src/branch/main/LICENSE
 		// cannot be found by the OSS tool automatically.
 		"name": "atob",
 		"fullLicenseText": [
@@ -75,7 +75,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/microsoft/tslib/blob/master/LICENSE.txt
+		// Reason: The license at https://github.com/microsoft/tslib/blob/main/LICENSE.txt
 		// does not include a clear Copyright statement.
 		"name": "tslib",
 		"prependLicenseText": [
@@ -83,15 +83,15 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/rbuckton/reflect-metadata/blob/master/LICENSE
-		// does not include a clear Copyright statement (it's in https://github.com/rbuckton/reflect-metadata/blob/master/CopyrightNotice.txt).
+		// Reason: The license at https://github.com/rbuckton/reflect-metadata/blob/main/LICENSE
+		// does not include a clear Copyright statement (it's in https://github.com/rbuckton/reflect-metadata/blob/main/CopyrightNotice.txt).
 		"name": "reflect-metadata",
 		"prependLicenseText": [
 			"Copyright (c) Microsoft Corporation. All rights reserved."
 		]
 	},
 	{
-		// Reason: The license at https://github.com/reem/rust-unreachable/blob/master/LICENSE-MIT
+		// Reason: The license at https://github.com/reem/rust-unreachable/blob/main/LICENSE-MIT
 		// cannot be found by the OSS tool automatically.
 		"name": "reem/rust-unreachable",
 		"fullLicenseText": [
@@ -117,7 +117,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/reem/rust-void/blob/master/LICENSE-MIT
+		// Reason: The license at https://github.com/reem/rust-void/blob/main/LICENSE-MIT
 		// cannot be found by the OSS tool automatically.
 		"name": "reem/rust-void",
 		"fullLicenseText": [
@@ -143,7 +143,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/mrhooray/crc-rs/blob/master/LICENSE-MIT
+		// Reason: The license at https://github.com/mrhooray/crc-rs/blob/main/LICENSE-MIT
 		// cannot be found by the OSS tool automatically.
 		"name": "mrhooray/crc-rs",
 		"fullLicenseText": [
@@ -171,7 +171,7 @@
 		]
 	},
 	{
-		// Reason: The license at https://github.com/floatdrop/pinkie/blob/master/license
+		// Reason: The license at https://github.com/floatdrop/pinkie/blob/main/license
 		// cannot be found by the OSS tool automatically.
 		"name": "pinkie",
 		"fullLicenseText": [
