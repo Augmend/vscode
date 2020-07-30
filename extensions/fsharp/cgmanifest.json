@@ -10,7 +10,7 @@
 				}
 			},
 			"license": "MIT",
-			"description": "The file syntaxes/fsharp.json was included from https://github.com/ionide/ionide-fsgrammar/blob/master/grammar/fsharp.json.",
+			"description": "The file syntaxes/fsharp.json was included from https://github.com/ionide/ionide-fsgrammar/blob/main/grammar/fsharp.json.",
 			"version": "0.0.0"
 		}
 	],
