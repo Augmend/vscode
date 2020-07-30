@@ -176,7 +176,7 @@ steps:
 
 - script: |
     set -e
-    AZURE_DOCUMENTDB_MASTERKEY="$(builds-docdb-key-readwrite)" \
+    AZURE_DOCUMENTDB_MAINKEY="$(builds-docdb-key-readwrite)" \
     AZURE_STORAGE_ACCESS_KEY_2="$(vscode-storage-key)" \
     VSCODE_MIXIN_PASSWORD="$(github-distro-mixin-password)" \
     ./build/azure-pipelines/linux/publish.sh
