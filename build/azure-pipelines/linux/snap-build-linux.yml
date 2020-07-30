@@ -47,6 +47,6 @@ steps:
     (cd $SNAP_ROOT/code-* && sudo --preserve-env snapcraft snap --output "$SNAP_PATH")
 
     # Publish snap package
-    AZURE_DOCUMENTDB_MASTERKEY="$(builds-docdb-key-readwrite)" \
+    AZURE_DOCUMENTDB_MAINKEY="$(builds-docdb-key-readwrite)" \
     AZURE_STORAGE_ACCESS_KEY_2="$(vscode-storage-key)" \
     node build/azure-pipelines/common/createAsset.js "linux-snap-x64" package "$SNAP_FILENAME" "$SNAP_PATH"
