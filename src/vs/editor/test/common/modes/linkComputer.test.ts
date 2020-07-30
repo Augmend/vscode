@@ -133,8 +133,8 @@ suite('Editor Modes - Link Computer', () => {
 			'                             https://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(v=vs.85).aspx'
 		);
 		assertLink(
-			'// https://github.com/projectkudu/kudu/blob/master/Kudu.Core/Scripts/selectNodeVersion.js',
-			'   https://github.com/projectkudu/kudu/blob/master/Kudu.Core/Scripts/selectNodeVersion.js'
+			'// https://github.com/projectkudu/kudu/blob/main/Kudu.Core/Scripts/selectNodeVersion.js',
+			'   https://github.com/projectkudu/kudu/blob/main/Kudu.Core/Scripts/selectNodeVersion.js'
 		);
 		assertLink(
 			'<!-- !!! Do not remove !!!   WebContentRef(link:https://go.microsoft.com/fwlink/?LinkId=166007, area:Admin, updated:2015, nextUpdate:2016, tags:SqlServer)   !!! Do not remove !!! -->',
