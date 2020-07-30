@@ -1,6 +1,6 @@
 {
 	"information_for_contributors": [
-		"This file has been converted from https://github.com/ionide/ionide-fsgrammar/blob/master/grammar/fsharp.json",
+		"This file has been converted from https://github.com/ionide/ionide-fsgrammar/blob/main/grammar/fsharp.json",
 		"If you want to provide a fix or improvement, please create a pull request against the original repository.",
 		"Once accepted there, we are happy to receive an update request."
 	],
@@ -314,7 +314,7 @@
 				},
 				{
 					"match": "(?!when|and|or\\b)\\b([\\w0-9'`^._]+)",
-					"comments": "Here we need the \\w modifier in order to check that the words isn't blacklisted",
+					"comments": "Here we need the \\w modifier in order to check that the words isn't blocklisted",
 					"captures": {
 						"1": {
 							"name": "entity.name.type.fsharp"
@@ -659,7 +659,7 @@
 				},
 				{
 					"match": "(?!with|get|set\\b)\\b([\\w0-9'`^._]+)",
-					"comments": "Here we need the \\w modifier in order to check that the words isn't blacklisted",
+					"comments": "Here we need the \\w modifier in order to check that the words isn't blocklisted",
 					"captures": {
 						"1": {
 							"name": "entity.name.type.fsharp"
@@ -1617,7 +1617,7 @@
 								},
 								{
 									"match": "([\\w0-9'`^._]+)",
-									"comments": "Here we need the \\w modifier in order to check that the words isn't blacklisted",
+									"comments": "Here we need the \\w modifier in order to check that the words isn't blocklisted",
 									"captures": {
 										"1": {
 											"name": "entity.name.type.fsharp"
