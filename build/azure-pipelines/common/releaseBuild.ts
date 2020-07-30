@@ -45,7 +45,7 @@ async function main(): Promise<void> {
 	const commit = getEnv('BUILD_SOURCEVERSION');
 	const quality = getEnv('VSCODE_QUALITY');
 
-	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MASTERKEY'] });
+	const client = new CosmosClient({ endpoint: process.env['AZURE_DOCUMENTDB_ENDPOINT']!, key: process.env['AZURE_DOCUMENTDB_MAINKEY'] });
 	const config = await getConfig(client, quality);
 
 	console.log('Quality config:', config);
