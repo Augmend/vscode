@@ -10,7 +10,7 @@
 				}
 			},
 			"license": "Apache2",
-			"description": "The file syntaxes/docker.tmLanguage was included from https://github.com/moby/moby/blob/master/contrib/syntax/textmate/Docker.tmbundle/Syntaxes/Dockerfile.tmLanguage.",
+			"description": "The file syntaxes/docker.tmLanguage was included from https://github.com/moby/moby/blob/main/contrib/syntax/textmate/Docker.tmbundle/Syntaxes/Dockerfile.tmLanguage.",
 			"version": "0.0.0"
 		}
 	],
